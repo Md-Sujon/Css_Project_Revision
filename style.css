@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+/* Navbar Section */
+
 header{
     width: 960px;
     height: auto;
@@ -31,6 +33,9 @@ header{
     background-color:yellow;
     border-radius: 50%;
 }
+
+/* DropDown menu */
+
 .nav ul li ul{
     position:absolute;
     left: -9999px;
