@@ -21,7 +21,7 @@ header{
 }
 .nav ul li a{
     display: block;
-    font-size: 20px;
+    font-size: 15px;
     padding:25px 48px;
     color: #fff;
     text-decoration: none;
@@ -72,5 +72,51 @@ left:0px;
     background-color: #000;
     color: #fff;
     margin: 0px 20px;
+    border-radius:10px;
+}
 
+/* About Section  */
+.about-logo img{
+    width: 320px;
+    height: auto;
+    margin-left: 20px;
+    box-shadow: 0px 8px 10px 0px rgb(148, 147, 147);
+}
+.about-text{
+    width: 520px;
+    height: auto;
+    padding: 15px 40px;
+  
+}
+.row{
+    overflow: auto;
+}
+.col{
+    float: left;
+}
+.about-section{
+    background-color: rgb(223, 222, 222);
+}
+.about-text p{
+padding: 20px 0;
+font-size:17px;
+}
+.about-text h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+}
+.title h2{
+text-align: center;
+     width: 180px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    margin-left: 560px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    letter-spacing: 5px;
+   
 }
