@@ -5,7 +5,7 @@
 /* Navbar Section */
 
 header{
-    width: 960px;
+    width: 1300px;
     height: auto;
     margin: 0 auto;
 }
@@ -49,4 +49,28 @@ left:0px;
     border: 1px solid;
     color: rgb(255, 255, 255);
     width: 200px;
+}
+
+/* Header image */
+
+.cover-image{
+    height:50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    padding: 100px;
+    text-align: center;
+}
+.banner-text button{
+    font-size:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding:20px;
+    border: 0px;
+    background-color: #000;
+    color: #fff;
+    margin: 0px 20px;
+
 }
